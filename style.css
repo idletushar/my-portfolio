@@ -15,10 +15,16 @@
 }
 
 body {
-    /* background-color: rgb(0, 0, 33); */
     color: white;
     font-family: 'Poppins', sans-serif;
-    background-image: url(/home-bg.jpg)
+    background-image:url(/leone-venter-VieM9BdZKFo-unsplash.jpg)
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #20202122;
 }
 
 nav {
@@ -40,18 +46,19 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 nav ul li a:hover {
-    color: rgb(153, 153, 226);
+    /* color: rgb(153, 153, 226); */
+    color: #6b0ddd;
 }
 
 .left {
     font-size: 2rem;
 }
 
-.left a{
+.left a {
     text-decoration: none;
     color: white;
 }
@@ -79,7 +86,7 @@ nav ul li a:hover {
     font-size: 2rem;
 }
 
-.rightSection{
+.rightSection {
     width: 30%;
 }
 
@@ -88,15 +95,15 @@ nav ul li a:hover {
     margin: 50px 0;
 }
 
-.btns{
+.btns {
     padding: 43px 0;
 }
 
-.fa-brands{
+.fa-brands {
     padding: 0 10px;
 }
 
-.btn{
+.bttn {
     padding: 12px;
     background-color: #1e2167;
     color: white;
@@ -107,5 +114,65 @@ nav ul li a:hover {
 }
 
 .purple {
-    color: #9f59fa;
+    color: #6b0ddd;
+    /* color: brown; */
+}
+
+.secondSection {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.secondSection .intro {
+    width: 40%;
+}
+
+.secondSection h5 {
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.secondSection p {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.thirdSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.thirdSection h1 {
+    display: grid;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.contactSocial{
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+.contactSocial a{
+    font-size: 2rem;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #2020213f;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 10vh;
+    align-items: center;
+}
+
+.social a {
+    padding: 0 5px;
 }
